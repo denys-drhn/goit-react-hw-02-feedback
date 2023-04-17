@@ -1,6 +1,6 @@
 <!-- first.steps -->
 
-class Feedback extends Component { state = { good: 0, neutral: 0, bad: 0, };
+<!-- class Feedback extends Component { state = { good: 0, neutral: 0, bad: 0, };
 
 handleGoodClick = () => { // this.setState(prevState => { return { good:
 prevState.good + 1, }; }); this.setState(prevState => ({ good: prevState.good +
@@ -16,6 +16,7 @@ this.state.neutral + this.state.bad; const positive = this.state.good; return
 Math.round((positive / total) \* 100); };
 
 render() { return ( <section className={css.feedbackSection}>
+
 <h1 className={css.sectionTitle}>Please leave feedback</h1>
 
         <button
@@ -53,4 +54,4 @@ render() { return ( <section className={css.feedbackSection}>
 
 } }
 
-export default Feedback;
+export default Feedback; -->
